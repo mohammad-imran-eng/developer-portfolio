@@ -1,0 +1,103 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* shared style */
+
+.text-primary {
+    color: #FD6E0A;
+    font-weight: 800;
+}
+.dark-2 {
+    color: #474747;
+}
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a {
+    text-decoration: none;
+}
+
+.banner-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner img {
+    background-image: url(../portfolio-resources-main/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+.banner h1 {
+    font-weight: bold;
+}
+
+.banner .banner-desc {
+    color: #757575;
+}
+
+.about-me {
+    background-color: #FFF8F3;
+    width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.about-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-desc {
+    color: #757575;
+}
+.about-me h3 {
+    text-align: center;
+}
+.about-info p {
+    color: #474747;
+    font-weight: bold;
+}
+.do-list-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto;
+}
+.do-container h3 {
+    text-align: center;
+}
+.do-desc {
+    width: 650px;
+    margin: 0 auto;
+    color: #757575;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
