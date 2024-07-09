@@ -101,3 +101,43 @@ nav ul li a {
     line-height: 27px;
     margin-bottom: 20px;
 }
+.resume-title {
+    text-align: center;
+    color: #181818;
+    font-weight: bold;
+    margin: 40px 0;
+}
+
+.resume-container {
+    display: flex;
+    width: 1020px;
+    margin: 0 auto;
+    gap: 24px;
+}
+.resume-education h1 {
+    color: #474747;
+    font-weight: bold;
+}
+.education-title {
+    color: #474747;
+    font-weight: bold;
+}
+.education-desc {
+    color: #757575;
+}
+.resume-experience h1 {
+    color: #474747;
+    font-weight: bold;
+}
+
+.resume-experience .experience-title {
+    color: #474747;
+    font-weight: bold;
+}
+.resume-experience .experience-desc {
+    color: #757575;
+}
+.cv-btn {
+    text-align: center;
+    margin: 30px 0;
+}
